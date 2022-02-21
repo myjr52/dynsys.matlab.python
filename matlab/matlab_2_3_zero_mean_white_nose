@@ -1,0 +1,12 @@
+clear;
+
+sgm_x = 1;
+mean_x = 0;
+Omega_x = linspace(-10,10,1000);
+px = (1/(sqrt(2*pi*sgm_x^2))*exp(-(Omega_x-mean_x).^2/(2*sgm_x^2));
+
+figure;
+plot(Omega_x,px);
+xlabel('Random Variable x Sampling Space');
+ylabel('probability density function');
+legend('px','Location','southeast');
