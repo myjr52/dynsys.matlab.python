@@ -18,3 +18,7 @@ Please use the following BibTeX information to cite the book.
   address   = "to be confirmed"
 }
 ```
+Each directory includes
+- **./matlab** matab source scripts
+- **./python** python scource scripts
+- **./solution** exercise solutions
