@@ -52,4 +52,4 @@ Run "matlab_2_5_gyroscope_simulation.py" or "python_2_5_gyroscope_simulation.py"
 See the solution chapter of the book
 
 ### Exercise 2.6
-See the soluti
+
