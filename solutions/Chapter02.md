@@ -39,8 +39,17 @@ The following three figures are for (rstride, cstride) equal to (1,1), (10,1) or
 ![(rstride, cstrid)=(1,10)!](./figures/ex2_3_03.png "(rstride, cstrid)=(1,10)")
 
 
+All the above figures are drawn with the colormap option set to *magma*.  The colormap settings of the following three figures are *plasma*, *inferno*, and *viridis*, respectively:
+
+![colormap = plasma!](./figures/ex2_3_04.png "colormap = plasma")
+![colormap = inferno!](./figures/ex2_3_05.png "colormap = inferno")
+![colormap = viridis!](./figures/ex2_3_06.png "colormap = viridis")
+
 ### Exercise 2.4
 Run "matlab_2_5_gyroscope_simulation.py" or "python_2_5_gyroscope_simulation.py". 
 
 ### Exercise 2.5
 See the solution chapter of the book
+
+### Exercise 2.6
+See the soluti
