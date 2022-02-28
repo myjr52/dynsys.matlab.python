@@ -53,3 +53,4 @@ See the solution chapter of the book
 
 ### Exercise 2.6
 
+The matlab solution is "matlab_exercise_2_6.m", and the python solution is "python_exercise_2_6.py".
