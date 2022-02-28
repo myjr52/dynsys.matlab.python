@@ -38,7 +38,7 @@ for idx=1:N_sample
     beta = beta + dbeta;
     
     % eta_v(t)
-    eta_v = sigma_v*rand(3,1);
+    eta_v = sigma_v*randn(3,1);
     
     % w_tilde
     w_measurement = w_true + beta + eta_v;
