@@ -117,3 +117,5 @@ vec_C = solve(A.T@A,A.T@y)
 
 C_BR = vec_C.reshape(3,3)
 ```
+### Exercise 2.8
+The matlab solution is "matlab_exercise_2_8.m", and the python solution is "python_exercise_2_8.py".
