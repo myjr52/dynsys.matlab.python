@@ -108,7 +108,7 @@ while tol_NR
 end
 lamda = lamda_c;
 
-Y = (inv((sgm+lamda)*eye(3)-S))*z;
+Y = (((sgm+lamda)*eye(3)-S))\z;
 
 q_est = 1/sqrt(1+sum(Y.*Y))*[Y; 1];
 
