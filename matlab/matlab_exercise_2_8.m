@@ -52,9 +52,6 @@ end
 
 function q_est = QUEST(w,v,a_w)
 
-% programmed by jongrae <jongrae.kim@glasgow.ac.uk>
-% 23rd August 2012
-
 num_obs = size(v,2);
 
 % construct B & z
