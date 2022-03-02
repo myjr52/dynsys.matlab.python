@@ -124,4 +124,4 @@ The matlab solution is "matlab_exercise_2_8.m", and the python solution is "pyth
 The matlab solution is "matlab_exercise_2_9.m", and the python solution is "python_exercise_2_9.py".
 
 ### Exercise 2.10
-The matlab solution is "matlab_2_6_msd_kalman_filter.m",  and the python solution is "python__2_6_msd_kalman_filter.py".
+The matlab solution is "matlab_2_6_msd_kalman_filter.m",  and the python solution is "python_2_6_msd_kalman_filter.py".
