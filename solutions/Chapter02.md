@@ -1,10 +1,10 @@
 ## Chapter 2 Solutions
 
 ### Exercise 2.1
-Run "matlab_2_2_dqdt_unit_norm_error.m"
+Run [matlab_2_2_dqdt_unit_norm_error.m](/matlab/matlab_2_2_dqdt_unit_norm_error.m)
 
 ### Exercise 2.2
-Run "matlab_2_4_stchastic_process.m". Use a large value for the number of realizations, *N_realize*, to make the pdf closer to the truth.
+Run [matlab_2_4_stchastic_process.m](/matlab/matlab_2_4_stchastic_process.m). Use a large value for the number of realizations, *N_realize*, to make the pdf closer to the truth.
 Each plot commands changes the surface plot as follows:
 
 ```
@@ -28,7 +28,7 @@ Each plot commands changes the surface plot as follows:
 
 
 ### Exercise 2.3
-Run "python_2_4_stchastic_process.py". 
+Run [python_2_4_stchastic_process.py](/python/python_2_4_stchastic_process.py). 
 
 *rstride* and *cstride* set the number of sampling widths in the row and the column directions of the data, respectively. Values greater than 1 speed up the rendering speed of surface plots. It is useful when plotting big size data.
 
@@ -46,13 +46,13 @@ All the above figures are drawn with the colormap option set to *magma*.  The co
 ![colormap = viridis!](./figures/ex2_3_06.png "colormap = viridis")
 
 ### Exercise 2.4
-Run "matlab_2_5_gyroscope_simulation.py" or "python_2_5_gyroscope_simulation.py". 
+Run [matlab_2_5_gyroscope_simulation.m](/matlab/matlab_2_5_gyroscope_simulation.m) or [python_2_5_gyroscope_simulation.py](/python/python_2_5_gyroscope_simulation.py). 
 
 ### Exercise 2.5
 See the solution chapter of the book
 
 ### Exercise 2.6
-The matlab solution is "matlab_exercise_2_6.m", and the python solution is "python_exercise_2_6.py".
+The matlab solution is [matlab_exercise_2_6.m](/matlab/matlab_exercise_2_6.m), and the python solution is [python_exercise_2_6.py](/python/python_exercise_2_6.py).
 
 ### Exercies 2.7
 The matlab script is as follows:
@@ -118,13 +118,13 @@ vec_C = solve(A.T@A,A.T@y)
 C_BR = vec_C.reshape(3,3)
 ```
 ### Exercise 2.8
-The matlab solution is "matlab_exercise_2_8.m", and the python solution is "python_exercise_2_8.py".
+The matlab solution is [matlab_exercise_2_8.m(/matlab/matlab_exercise_2_8.m), and the python solution is [python_exercise_2_8.py](/python/python_exercise_2_8.py).
 
 ### Exercise 2.9
-The matlab solution is "matlab_exercise_2_9.m", and the python solution is "python_exercise_2_9.py".
+The matlab solution is [matlab_exercise_2_9.m](/matlab/matlab_exercise_2_9.m), and the python solution is [python_exercise_2_9.py](/python/python_exercise_2_9.py).
 
 ### Exercise 2.10
-The matlab solution is "matlab_2_6_msd_kalman_filter.m",  and the python solution is "python_2_6_msd_kalman_filter.py".
+The matlab solution is [matlab_2_6_msd_kalman_filter.m](/matlab/matlab_2_6_msd_kalman_filter.m),  and the python solution is [python_2_6_msd_kalman_filter.py](/python/python_2_6_msd_kalman_filter.py).
 
 ### Exercise 2.11
 See [the solution file exercise_2_11_sol.pdf](files/exercise_2_11_sol.pdf), and [matlab_exercise_2_11.m](../matlab/matlab_exercise_2_11.m) or [python_exercise_2_11.py](../python/python_exercise_2_11.py)
