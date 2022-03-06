@@ -31,12 +31,6 @@ syms r1 r2 r3 r4 real
 r = [r1 r2 r3 r4]';
 simplify(expand(quat_x_quat(p,quat_x_quat(q,r)) - quat_x_quat(quat_x_quat(p,q),r)))
 
-Mho = [wx -w;
-       w' 0];
-
-% finally calculate d
-simplify(expand(quat_x_quat(q,(1/2)*Mho*p)+(1/2)*Mho*quat_x_quat(q,p)))
-
 function qxq = quat_x_quat(qp, q)
 
 
