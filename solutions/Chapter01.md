@@ -1,7 +1,7 @@
 ## Chapter 1 Solutions
 
 ### Exercise 1.1
-Run the following lines with "matlab_1_1_free_falling_object.m"
+Run the following lines with [matlab_1_1_free_falling_object.m](/matlab/matlab_1_1_free_falling_object.m)
 
 ```
 figure;
@@ -21,7 +21,7 @@ xlabel('time [s]');
 ```
 
 ### Exercise 1.2
-Run the following lines with "matlab_1_1_free_falling_object.m"
+Run the following lines with [matlab_1_1_free_falling_object.m](/matlab/matlab_1_1_free_falling_object.m)
 ```
 figure;
 subplot(221);
@@ -39,7 +39,7 @@ xlabel('time [s]');
 ```
 
 ### Exercise 1.3
-Run the following lines with "python_1_1_free_falling_object.py". The following codes are based on "https://towardsdatascience.com/matplotlib-multi-column-row-spanning-layouts-f026eb7c3c27"
+Run the following lines with [python_1_1_free_falling_object.py](/python/python_1_1_free_falling_object.py). The following codes are based on "https://towardsdatascience.com/matplotlib-multi-column-row-spanning-layouts-f026eb7c3c27"
 ```
 from matplotlib.gridspec import GridSpec
 fig = plt.figure(2)
@@ -69,4 +69,4 @@ See the solution chapter of the book
 See the solution chapter of the book
 
 ### Exercise 1.6
-Check "matlab_1_2_ligand_receptor_interactions.m" and "python_1_2_ligand_receptor_interactions.py"
+Check [matlab_1_2_ligand_receptor_interactions.m](/matlab/matlab_1_2_ligand_receptor_interactions.m) and [python_1_2_ligand_receptor_interactions.py](/python/python_1_2_ligand_receptor_interactions.py)
