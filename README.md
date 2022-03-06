@@ -22,3 +22,7 @@ Each directory includes
 - **./matlab** matab source scripts
 - **./python** python scource scripts
 - **./solution** exercise solutions
+
+Solutions for Each Chapter
+- [Chapter 1](/solutions/Chapter01.md)
+- [Chapter 2](/solutions/Chapter02.md)
