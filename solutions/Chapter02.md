@@ -128,3 +128,6 @@ The matlab solution is [matlab_2_6_msd_kalman_filter.m](/matlab/matlab_2_6_msd_k
 
 ### Exercise 2.11
 See [the solution file exercise_2_11_sol.pdf](files/exercise_2_11_sol.pdf), and [matlab_exercise_2_11.m](../matlab/matlab_exercise_2_11.m) or [python_exercise_2_11.py](../python/python_exercise_2_11.py)
+
+### Exercise 2.12
+See [matlab_2_7_kalman_filter_attitude_derive_Q.m](../matlab/matlab_2_7_kalman_filter_attitude_derive_Q.m) or [python_2_7_kalman_filter_attitude_derive_Q.py](../python/python_2_7_kalman_filter_attitude_derive_Q.py)
