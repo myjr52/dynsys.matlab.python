@@ -118,7 +118,7 @@ vec_C = solve(A.T@A,A.T@y)
 C_BR = vec_C.reshape(3,3)
 ```
 ### Exercise 2.8
-The matlab solution is [matlab_exercise_2_8.m(/matlab/matlab_exercise_2_8.m), and the python solution is [python_exercise_2_8.py](/python/python_exercise_2_8.py).
+The matlab solution is [matlab_exercise_2_8.m](/matlab/matlab_exercise_2_8.m), and the python solution is [python_exercise_2_8.py](/python/python_exercise_2_8.py).
 
 ### Exercise 2.9
 The matlab solution is [matlab_exercise_2_9.m](/matlab/matlab_exercise_2_9.m), and the python solution is [python_exercise_2_9.py](/python/python_exercise_2_9.py).
@@ -131,3 +131,6 @@ See [the solution file exercise_2_11_sol.pdf](files/exercise_2_11_sol.pdf), and 
 
 ### Exercise 2.12
 See [matlab_2_7_kalman_filter_attitude_derive_Q.m](../matlab/matlab_2_7_kalman_filter_attitude_derive_Q.m) or [python_2_7_kalman_filter_attitude_derive_Q.py](../python/python_2_7_kalman_filter_attitude_derive_Q.py)
+
+### Exercise 2.13
+See
