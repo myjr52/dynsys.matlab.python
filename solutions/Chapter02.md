@@ -133,4 +133,4 @@ See [the solution file exercise_2_11_sol.pdf](files/exercise_2_11_sol.pdf), and 
 See [matlab_2_7_kalman_filter_attitude_derive_Q.m](../matlab/matlab_2_7_kalman_filter_attitude_derive_Q.m) or [python_2_7_kalman_filter_attitude_derive_Q.py](../python/python_2_7_kalman_filter_attitude_derive_Q.py)
 
 ### Exercise 2.13
-See
+See [matlab_exercise_2_13.m](../matlab/matlab_exercise_2_13.m) or [python_exercise_2_13.py](../python/python_exercise_2_13.py)
