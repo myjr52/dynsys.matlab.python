@@ -134,3 +134,23 @@ See [matlab_2_7_kalman_filter_attitude_derive_Q.m](../matlab/matlab_2_7_kalman_f
 
 ### Exercise 2.13
 See [matlab_exercise_2_13.m](../matlab/matlab_exercise_2_13.m) or [python_exercise_2_13.py](../python/python_exercise_2_13.py)
+
+### Exercise 2.14
+See [matlab_2_8_dJwdt_attitude_dynamics.m](../matlab/matlab_2_8_dJwdt_attitude_dynamics.m) or [python_2_8_dJwdt_attitude_dynamics.py](../python/python_2_8_dJwdt_attitude_dynamics.py)
+
+### Exercise 2.15
+The matlab script is as follows:
+
+```
+syms CT L CD real
+A=[-CT -CT -CT -CT; 0 0 L*CT -L*CT; L*CT -L*CT 0 0; CD CD -CD -CD];
+inv(A)
+```
+and the python script is as follows:
+
+```
+from sympy import symbols, Matrix
+CT, L, CD = symbols('CT L DT')
+A = Matrix([[-CT,-CT,-CT,-CT],[0,0,L*CT,-L*CT],[L*CT,-L*CT,0,0],[CD,CD,-CD,-CD]])
+A.inv()
+```
