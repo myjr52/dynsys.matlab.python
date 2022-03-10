@@ -1,4 +1,10 @@
 ## Chapter 3 Solutions
 
 ### Exercise 3.1
-Run [matlab_2_2_dqdt_unit_norm_error.m](/matlab/matlab_2_2_dqdt_unit_norm_error.m)
+See the solution in the book
+
+### Exercise 3.2
+See
+
+### Exercise 3.6
+See the solution in the book
