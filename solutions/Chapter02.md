@@ -165,4 +165,7 @@ Update the motor part of [matlab_2_10_quadcopter_quaternion_feedback.m](../matla
 
 Similarly, update the motor part of [python_2_10_quadcopter_quaternion_feedback.py](../python/python_2_10_quadcopter_quaternion_feedback.py) using [python_exercise_2_16_17.py](../python/python_exercise_2_16_17.py).
 
+### Exercise 2.19
+See [matlab_2_11_quadcopter_quaternion_feedback_robustness.m](../matlab/matlab_2_11_quadcopter_quaternion_feedback_robustness.m) or [python_2_11_quadcopter_quaternion_feedback_robustness.py](../python/python_2_11_quadcopter_quaternion_feedback_robustness.py). 
 
+A parallel processing version of the python robustness analysis code is in [python_2_12_parallel_quadcopter_quaternion_feedback_robustness.py](../python/python_2_12_parallel_quadcopter_quaternion_feedback_robustness.py).
