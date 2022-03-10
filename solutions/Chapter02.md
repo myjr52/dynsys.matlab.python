@@ -154,3 +154,10 @@ CT, L, CD = symbols('CT L DT')
 A = Matrix([[-CT,-CT,-CT,-CT],[0,0,L*CT,-L*CT],[L*CT,-L*CT,0,0],[CD,CD,-CD,-CD]])
 A.inv()
 ```
+### Exercise 2.16
+See [matlab_exercise_2_16_17.m](../matlab/matlab_exercise_2_16_17.m) or [python_exercise_2_16_17.py](../python/python_exercise_2_16_17.py)
+
+### Exercise 2.17
+See [matlab_exercise_2_16_17.m](../matlab/matlab_exercise_2_16_17.m) or [python_exercise_2_16_17.py](../python/python_exercise_2_16_17.py)
+
+
