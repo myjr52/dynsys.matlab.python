@@ -163,6 +163,6 @@ See [matlab_exercise_2_16_17.m](../matlab/matlab_exercise_2_16_17.m) or [python_
 ### Exercise 2.18
 Update the motor part of [matlab_2_10_quadcopter_quaternion_feedback.m](../matlab/matlab_2_10_quadcopter_quaternion_feedback.m) using [matlab_exercise_2_16_17.m](../matlab/matlab_exercise_2_16_17.m).
 
-Similarly, update the motor part of [python_2_10_quadcopter_quaternion_feedback.py](../python/python_2_10_quadcopter_quaternion_feedback.m) using [python_exercise_2_16_17.py](../python/python_exercise_2_16_17.py).
+Similarly, update the motor part of [python_2_10_quadcopter_quaternion_feedback.py](../python/python_2_10_quadcopter_quaternion_feedback.py) using [python_exercise_2_16_17.py](../python/python_exercise_2_16_17.py).
 
 
