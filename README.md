@@ -27,6 +27,8 @@ Solutions for Each Chapter
 - [Chapter 1](/solutions/Chapter01.md)
 - [Chapter 2](/solutions/Chapter02.md)
 - [Chapter 3](/solutions/Chapter03.md)
+- [Chapter 4](/solutions/Chapter04.md)
+- [Chapter 5](/solutions/Chapter05.md)
 
 All Software Licences are:
 
