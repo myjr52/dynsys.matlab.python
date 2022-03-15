@@ -16,7 +16,7 @@ full(A) % check the sparse matrix in the full format
 
 ### Exercise 3.3
 
-
+See [matlab_exercise_3_3.m](../matlab/matlab_exercise_3_3.m)
 
 ### Exercise 3.6
 See the solution in the book
