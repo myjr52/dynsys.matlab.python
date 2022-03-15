@@ -18,5 +18,9 @@ full(A) % check the sparse matrix in the full format
 
 See [matlab_exercise_3_3.m](../matlab/matlab_exercise_3_3.m)
 
+### Exercise 3.4
+
+See [python_exercise_3_4.py](../python/python_exercise_3_4.py)
+
 ### Exercise 3.6
 See the solution in the book
