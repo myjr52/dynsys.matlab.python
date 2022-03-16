@@ -233,8 +233,6 @@ for idx in range(0,opt_path_updated.size-1,1):
     op_yy = [xy_samp[p_idx,1], xy_samp[q_idx,1]]
     plt.plot(op_xx,op_yy,'m',linewidth=4)
     
-plt.savefig('../book_v0_3/figures/python_org_resample_path_planning.pdf',dpi=250)
-
 plt.figure(2)
 for idx in range(0,opt_path_updated.size-1,1):
     p_idx = opt_path_updated[idx]
@@ -242,5 +240,3 @@ for idx in range(0,opt_path_updated.size-1,1):
     op_xx = [xy_samp[p_idx,0], xy_samp[q_idx,0]]
     op_yy = [xy_samp[p_idx,1], xy_samp[q_idx,1]]
     plt.plot(op_xx,op_yy,'m',linewidth=4)
-
-plt.savefig('../book_v0_3/figures/python_resample_path_planning.pdf',dpi=250)
