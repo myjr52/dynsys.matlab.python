@@ -41,3 +41,11 @@ at lines 75-78 in [matlab_3_6_uav_target_tracking_worst_scenario.m](../matlab/ma
 or
 
 at lines 81-82 in [python_3_6_uav_target_tracking_worst_scenario.py](../python/python_3_6_uav_target_tracking_worst_scenario.py)
+
+### Exercise 3.8
+
+See [matlab_3_6_uav_target_tracking_worst_scenario.m](../matlab/matlab_3_6_uav_target_tracking_worst_scenario.m) or [python_3_6_uav_target_tracking_worst_scenario.py](../python/python_3_6_uav_target_tracking_worst_scenario.py)
+
+### Exercise 3.9
+
+See
