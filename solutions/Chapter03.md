@@ -22,5 +22,9 @@ See [matlab_exercise_3_3.m](../matlab/matlab_exercise_3_3.m)
 
 See [python_exercise_3_4.py](../python/python_exercise_3_4.py)
 
+### Exercise 3.5
+
+See [matlab_exercise_3_3.m](../matlab/matlab_exercise_3_5.m) or [python_3_4_improve_graph_with_new_samples_along_optimal_path.py](../python/python_3_4_improve_graph_with_new_samples_along_optimal_path.py)
+
 ### Exercise 3.6
 See the solution in the book
