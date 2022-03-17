@@ -48,4 +48,20 @@ See [matlab_3_6_uav_target_tracking_worst_scenario.m](../matlab/matlab_3_6_uav_t
 
 ### Exercise 3.9
 
-See
+Run the following lines after run [matlab_3_6_uav_target_tracking_worst_scenario.m](../matlab/matlab_3_6_uav_target_tracking_worst_scenario.m) 
+```
+% check the second derivative if it is convex
+dJ2=[eval(diff(dJdux0,ux0)) eval(diff(dJdux0,uy0)); 
+     eval(diff(dJduy0,ux0)) eval(diff(dJduy0,uy0))];
+
+ux_all = linspace(-20,20,20);
+uy_all = linspace(-20,20,19); 
+eig_dJ2 = zeros(length(ux_all),length(uy_all));
+for idx=1:length(ux_all)
+    idx
+    for jdx=1:length(uy_all)
+        eig_dJ2(idx,jdx) = min(eig(eval(subs(dJ2,[ux0 uy0],[ux_all(idx) uy_all(jdx)]))));
+    end
+end
+figure; clf; contourf(ux_all,uy_all, eig_dJ2'); colorbar;
+```
