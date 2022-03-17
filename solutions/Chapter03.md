@@ -28,3 +28,16 @@ See [matlab_exercise_3_3.m](../matlab/matlab_exercise_3_5.m) or [python_3_4_impr
 
 ### Exercise 3.6
 See the solution in the book
+
+### Exercise 3.7
+
+Check the following variable:
+```
+a_triangle 
+b_triangle
+```
+at lines 75-78 in [matlab_3_6_uav_target_tracking_worst_scenario.m](../matlab/matlab_3_6_uav_target_tracking_worst_scenario.m)
+
+or
+
+at lines 81-82 in [python_3_6_uav_target_tracking_worst_scenario.py](../python/python_3_6_uav_target_tracking_worst_scenario.py)
