@@ -65,3 +65,39 @@ for idx=1:length(ux_all)
 end
 figure; clf; contourf(ux_all,uy_all, eig_dJ2'); colorbar;
 ```
+
+Run the following lines after run [python_3_6_uav_target_tracking_worst_scenario.py](../python/python_3_6_uav_target_tracking_worst_scenario.py)
+
+```
+# check the second derivative if it is convex
+d2Jux02 = diff(dJdux0,ux0).subs(values)
+d2Jux02_function = lambdify([ux0,uy0],d2Jux02)
+
+d2Juy02 = diff(dJduy0,uy0).subs(values)
+d2Juy02_function = lambdify([ux0,uy0],d2Juy02)
+
+d2Jux0uy0_1 = diff(dJdux0,uy0).subs(values)
+d2Jux0uy0_1_function = lambdify([ux0,uy0],d2Jux0uy0_1)
+
+d2Jux0uy0_2 = diff(dJduy0,ux0).subs(values)
+d2Jux0uy0_2_function = lambdify([ux0,uy0],d2Jux0uy0_2)
+
+a11 = d2Jux02_function(UX0,UY0) 
+a22 = d2Juy02_function(UX0,UY0)
+a12_1 = d2Jux0uy0_1_function(UX0,UY0)
+a12_2 = d2Jux0uy0_2_function(UX0,UY0)
+
+print('Check if this is zero:',np.sum(np.abs(a12_1-a12_2)))
+
+num_neg_eig = 0
+for ix, iy in np.ndindex(a11.shape):
+    J_Hessian = np.array([[a11[ix,iy],a12_1[ix,iy]],[a12_1[ix,iy],a22[ix,iy]]])
+    [eig_val,eig_vec]=np.linalg.eig(J_Hessian)
+    if eig_val.min() < 0:
+        num_neg_eig = num_neg_eig + 1
+        
+if num_neg_eig == 0:
+    print('Hessian is positive-definite')
+else:
+    print('find negative hessian')
+```
