@@ -101,3 +101,7 @@ if num_neg_eig == 0:
 else:
     print('find negative hessian')
 ```
+
+### Exercise 3.10
+
+See [matlab_3_7_uav_target_tracking_mc_simulations](../matlab/matlab_3_7_uav_target_tracking_mc_simulations.m) or [python_3_7_uav_target_tracking_mc_simulations.py](../python/python_3_7_uav_target_tracking_mc_simulations.py)
