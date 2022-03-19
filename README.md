@@ -11,7 +11,7 @@ Please use the following BibTeX information to cite the book.
 
 ```
 @book{jongraekim2022,
-  title     = "Dynamic System Modelling \& Analysis using MATLAB \& Python for Control Engineers",
+  title     = "Dynamic System Modeling \& Analysis using MATLAB \& Python for Control Engineers",
   author    = "Kim, Jongrae",
   year      = 2022,
   publisher = "to be confirmed",
