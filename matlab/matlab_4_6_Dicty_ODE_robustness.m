@@ -15,14 +15,19 @@ function J_cost = Dicty_x1_square_integral(delta)
     ki_para=ki_para_org.*(1+(p_delta/100)*delta(:));
 
     x0 = rand(7,1);
-    dt = 0.1;
-    time_interval = 0:dt:1200; % [min]
+    dt = 0.1;  % [min]
+    t0 = 600;  % [min]
+    tf = 1200; % [min]
+    
+    time_interval = 0:dt:tf; % [min]
 
     [~,xout] = ode45(@(time,state) Dicty_cAMP(time,state,ki_para), time_interval, x0);
 
-    ACA = xout(6000:end,1);
-    PKA = xout(6000:end,2);
-    CAR1 = xout(6000:end,7);
+    N_t0 = floor(t0/dt);
+    
+    ACA = xout(N_t0:end,1);
+    PKA = xout(N_t0:end,2);
+    CAR1 = xout(N_t0:end,7);
     J_cost = sum((ki_para(1)*CAR1 - ki_para(2)*(ACA.*PKA)).^2)*dt*0.5;
     
 end
