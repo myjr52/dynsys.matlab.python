@@ -40,16 +40,19 @@ def Dicty_x1_square_integral(delta):
     ki_para=ki_para_org*(1+(p_delta/100)*delta)
 
     init_cond = np.random.rand(7)
-    dt = 0.1
-    tf = 1200
+    dt = 0.1  # [minutes]
+    t0 = 600  # [minutes]
+    tf = 1200 # [minutes]
     time_interval = np.linspace(0,tf,int(tf/dt)) # [min]
  
     sol_out = solve_ivp(Dicty_cAMP, (0, tf), init_cond, t_eval=time_interval, args=(ki_para,))
     xout = sol_out.y
 
-    ACA = xout[0,5999::]
-    PKA = xout[2,5999::]
-    CAR1 = xout[6,5999::]
+    N_t0 = int(t0/dt) - 1
+
+    ACA = xout[0,N_t0::]
+    PKA = xout[2,N_t0::]
+    CAR1 = xout[6,N_t0::]
     J_cost = np.sum((ki_para[0]*CAR1 - ki_para[1]*(ACA*PKA))**2)*dt*0.5
     
     plt.plot(ACA)
