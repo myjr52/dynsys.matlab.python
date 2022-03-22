@@ -7,21 +7,21 @@ Run [matlab_2_2_dqdt_unit_norm_error.m](/matlab/matlab_2_2_dqdt_unit_norm_error.
 Run [matlab_2_4_stchastic_process.m](/matlab/matlab_2_4_stchastic_process.m). Use a large value for the number of realizations, *N_realize*, to make the pdf closer to the truth.
 Each plot commands changes the surface plot as follows:
 
-```
->> shading flat
+```matlab
+shading flat
 ```
 
 ![shading flat!](./figures/ex2_2_01.png "shading flat")
 
-```
->> shading interp
+```matlab
+shading interp
 ```
 
 ![shading interp!](./figures/ex2_2_02.png "shading interp")
 
 
-```
->> shading faceted
+```matlab
+shading faceted
 ```
 
 ![shading faceted!](./figures/ex2_2_03.png "shading faceted")
@@ -57,7 +57,7 @@ The matlab solution is [matlab_exercise_2_6.m](/matlab/matlab_exercise_2_6.m), a
 ### Exercies 2.7
 The matlab script is as follows:
 
-```
+```matlab
 clear;
 r1R = [-0.6794 -0.3237 -0.6586]';
 r2R = [-0.7296  0.5858  0.3528]';
@@ -85,7 +85,7 @@ C_BR=(reshape((A'*A)\(A'*rB),3,3))'
 ```
 and the python script is as follows:
 
-```
+```python
 import numpy as np
 from scipy.sparse import block_diag
 from scipy.linalg import solve
@@ -141,14 +141,14 @@ See [matlab_2_8_dJwdt_attitude_dynamics.m](../matlab/matlab_2_8_dJwdt_attitude_d
 ### Exercise 2.15
 The matlab script is as follows:
 
-```
+```matlab
 syms CT L CD real
 A=[-CT -CT -CT -CT; 0 0 L*CT -L*CT; L*CT -L*CT 0 0; CD CD -CD -CD];
 inv(A)
 ```
 and the python script is as follows:
 
-```
+```python
 from sympy import symbols, Matrix
 CT, L, CD = symbols('CT L DT')
 A = Matrix([[-CT,-CT,-CT,-CT],[0,0,L*CT,-L*CT],[L*CT,-L*CT,0,0],[CD,CD,-CD,-CD]])
