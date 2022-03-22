@@ -4,7 +4,7 @@
 See the solution in the book
 
 ### Exercise 3.2
-```
+```matlab
 row_num = 6; % matrix row size
 col_num = 6; % matrix column size
 row = [2 4 1 3 4 5 2 4 1 2 3 5 6 2 4 6 4 5];
@@ -49,7 +49,7 @@ See [matlab_3_6_uav_target_tracking_worst_scenario.m](../matlab/matlab_3_6_uav_t
 ### Exercise 3.9
 
 Run the following lines after run [matlab_3_6_uav_target_tracking_worst_scenario.m](../matlab/matlab_3_6_uav_target_tracking_worst_scenario.m) 
-```
+```matlab
 % check the second derivative if it is convex
 dJ2=[eval(diff(dJdux0,ux0)) eval(diff(dJdux0,uy0)); 
      eval(diff(dJduy0,ux0)) eval(diff(dJduy0,uy0))];
@@ -68,7 +68,7 @@ figure; clf; contourf(ux_all,uy_all, eig_dJ2'); colorbar;
 
 Run the following lines after run [python_3_6_uav_target_tracking_worst_scenario.py](../python/python_3_6_uav_target_tracking_worst_scenario.py)
 
-```
+```python
 # check the second derivative if it is convex
 d2Jux02 = diff(dJdux0,ux0).subs(values)
 d2Jux02_function = lambdify([ux0,uy0],d2Jux02)
