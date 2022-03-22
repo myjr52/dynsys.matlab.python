@@ -26,11 +26,18 @@ See [python_4_3_E_Coli_opt_est_robustness.py](../python/python_4_3_E_Coli_opt_es
 
 ### Exercise 4.6
 
-See [matlab_4_4_Dicty_ODE.py.m](../matlab/matlab_4_4_Dicty_ODE.m) or [python_4_4_Dicty_ODE.py](../python/python_4_4_Dicty_ODE.py)
+See [matlab_4_4_Dicty_ODE.m](../matlab/matlab_4_4_Dicty_ODE.m) or [python_4_4_Dicty_ODE.py](../python/python_4_4_Dicty_ODE.py)
 
 ### Exercise 4.7
 
-TBU
+   > **Set** *p*<sub>&delta;</sub> in (0,100], e.g. 2, &Delta;*t*, e.g., 0.1 minutes, *t*<sub>0</sub>, e.g., 600 minutes, *t*<sub>f</sub>, e.g., 1200 minutes 
+   > 
+   > **Solve** the minimization problem (4.30) using an optimization algorithm, e.g., the genetic algorithm  
+   >
+   > **Repeat with** different *p*<sub>&delta;</sub> in (0,100]
+
+The algorithm is implemented in [matlab_4_6_Dicty_ODE_robustness.m](../matlab/matlab_4_6_Dicty_ODE_robustness.m) or [python_4_6_Dicty_ODE_robustness.py](../python/python_4_6_Dicty_ODE_robustness.py)
+
 
 ### Exercise 4.8
 
