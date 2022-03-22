@@ -36,12 +36,9 @@ See [matlab_4_4_Dicty_ODE.m](../matlab/matlab_4_4_Dicty_ODE.m) or [python_4_4_Di
    >
    > **Repeat with** different *p*<sub>&delta;</sub> in (0,100]
 
-The algorithm is implemented in [matlab_4_6_Dicty_ODE_robustness.m](../matlab/matlab_4_6_Dicty_ODE_robustness.m) or [python_4_6_Dicty_ODE_robustness.py](../python/python_4_6_Dicty_ODE_robustness.py)
-
-
 ### Exercise 4.8
 
-TBU
+See [matlab_4_6_Dicty_ODE_robustness.m](../matlab/matlab_4_6_Dicty_ODE_robustness.m) or [python_4_6_Dicty_ODE_robustness.py](../python/python_4_6_Dicty_ODE_robustness.py)
 
 ### Exercise 4.9
 
