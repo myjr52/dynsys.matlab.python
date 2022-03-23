@@ -1,8 +1,30 @@
+% MIT License
+% 
+% Copyright (c) 2022 Jongrae.K
+% 
+% Permission is hereby granted, free of charge, to any person obtaining a copy
+% of this software and associated documentation files (the "Software"), to deal
+% in the Software without restriction, including without limitation the rights
+% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+% copies of the Software, and to permit persons to whom the Software is
+% furnished to do so, subject to the following conditions:
+% 
+% The above copyright notice and this permission notice shall be included in all
+% copies or substantial portions of the Software.
+% 
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+% SOFTWARE.
+
 clear;
 
 %%
 % number of samples
-num_sample = 200;
+num_sample = 1500;
 
 % map size
 x_min = 0; x_max = 10;
@@ -95,7 +117,6 @@ dr = kron(ones(length(vx1d),1),xy_dest) - [vx1d vy1d];
 vx = [vx [xy_dest(1); vx1d(min_id)]];
 vy = [vy [xy_dest(2); vy1d(min_id)]];
 
-
 % draw voronoi after removing points in the obstacles
 figure(1); clf; 
 plot(xn,yn,'k.'); 
@@ -140,3 +161,19 @@ axis([x_min-0.5 x_max y_min-0.5 y_max]);
 plot(xy_start(1),xy_start(2),'bx','MarkerSize',5,'LineWidth',5);
 plot(xy_dest(1),xy_dest(2),'ro','MarkerSize',5,'MarkerFacecolor','red');
 plot(opt_path(:,1),opt_path(:,2),'g-','LineWidth',2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
