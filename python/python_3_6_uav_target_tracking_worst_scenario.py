@@ -1,9 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jun 17 14:47:53 2021
+MIT License
 
-@author: jongrae
+Copyright (c) 2022 Jongrae.K
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 """
 
 import numpy as np
@@ -376,4 +394,35 @@ ax.plot([rl[0], ll[0]], [rl[1], ll[1]],'g-.',linewidth=3)
 ax.legend([r'$v_{\rm min}$',r'$v_{\rm max}$', 'curvature constraints', 'curvature constraints',
           'control input samples','control input acceleration bound'], 
           title='contours: cost function',bbox_to_anchor=(1.05, 1), loc='upper left',)
-          
+
+# check the second derivative if it is convex
+d2Jux02 = diff(dJdux0,ux0).subs(values)
+d2Jux02_function = lambdify([ux0,uy0],d2Jux02)
+
+d2Juy02 = diff(dJduy0,uy0).subs(values)
+d2Juy02_function = lambdify([ux0,uy0],d2Juy02)
+
+d2Jux0uy0_1 = diff(dJdux0,uy0).subs(values)
+d2Jux0uy0_1_function = lambdify([ux0,uy0],d2Jux0uy0_1)
+
+d2Jux0uy0_2 = diff(dJduy0,ux0).subs(values)
+d2Jux0uy0_2_function = lambdify([ux0,uy0],d2Jux0uy0_2)
+
+a11 = d2Jux02_function(UX0,UY0) 
+a22 = d2Juy02_function(UX0,UY0)
+a12_1 = d2Jux0uy0_1_function(UX0,UY0)
+a12_2 = d2Jux0uy0_2_function(UX0,UY0)
+
+print('Check if this is zero:',np.sum(np.abs(a12_1-a12_2)))
+
+num_neg_eig = 0
+for ix, iy in np.ndindex(a11.shape):
+    J_Hessian = np.array([[a11[ix,iy],a12_1[ix,iy]],[a12_1[ix,iy],a22[ix,iy]]])
+    [eig_val,eig_vec]=np.linalg.eig(J_Hessian)
+    if eig_val.min() < 0:
+        num_neg_eig = num_neg_eig + 1
+        
+if num_neg_eig == 0:
+    print('Hessian is positive-definite')
+else:
+    print('find negative hessian')

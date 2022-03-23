@@ -1,9 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 27 15:48:23 2020
+MIT License
 
-@author: jongrae
+Copyright (c) 2022 Jongrae.K
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 """
 
 import numpy as np
@@ -14,7 +32,7 @@ import matplotlib.pyplot as plt
 
 # numer of time samplng & number of stochastic process trial
 N_sample = 100
-N_realize = 5
+N_realize = 500
 
 # time 
 dt = 0.1 # [seconds]
@@ -83,7 +101,7 @@ time_matrix, x_bin_matrix = np.meshgrid(time,x_bin[0:-1])
 fig_3d = plt.figure()
 ax_3d = plt.axes(projection='3d')
 ax_3d.plot_surface(time_matrix, x_bin_matrix, px_all, rstride=1, cstride=1,
-                cmap='magma') # viridis, plasma, inferno, magma
+                cmap='viridis') # viridis, plasma, inferno, magma
 ax_3d.set_xlabel('time [s]',fontsize=14)
 ax_3d.set_ylabel(r'sampling space $x$',fontsize=14)
 ax_3d.set_zlabel(r'$\hat{p}(x)$',fontsize=14)
