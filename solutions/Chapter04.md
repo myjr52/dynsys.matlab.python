@@ -42,4 +42,9 @@ See [matlab_4_6_Dicty_ODE_robustness.m](../matlab/matlab_4_6_Dicty_ODE_robustnes
 
 ### Exercise 4.9
 
-TBU
+To extend the model (4.28) for multiple cells, use the approach shown in the following paper:
+
+ Article Source: Stochastic Noise and Synchronisation during Dictyostelium Aggregation Make cAMP Oscillations Robust
+Kim J, Heslop-Harrison P, Postlethwaite I, Bates DG (2007) Stochastic Noise and Synchronisation during Dictyostelium Aggregation Make cAMP Oscillations Robust. PLOS Computational Biology 3(11): e218. [https://doi.org/10.1371/journal.pcbi.0030218](https://doi.org/10.1371/journal.pcbi.0030218) 
+
+See [matlab_exercise_4_9.m](../matlab/matlab_exercise_4_9.m) or [python_exercise_4_9.py](../python/python_exercise_4_9.py)
