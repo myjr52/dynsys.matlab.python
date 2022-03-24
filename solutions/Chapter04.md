@@ -48,3 +48,7 @@ To extend the model (4.28) for multiple cells, use the approach shown in the fol
 Kim J, Heslop-Harrison P, Postlethwaite I, Bates DG (2007) Stochastic Noise and Synchronisation during Dictyostelium Aggregation Make cAMP Oscillations Robust. PLOS Computational Biology 3(11): e218. [https://doi.org/10.1371/journal.pcbi.0030218](https://doi.org/10.1371/journal.pcbi.0030218) 
 
 See [matlab_exercise_4_9.m](../matlab/matlab_exercise_4_9.m) or [python_exercise_4_9.py](../python/python_exercise_4_9.py)
+
+The following figure shows that external cAMP oscillation is enhanced by the synchronization of 20 cells:
+
+![total external cAMP](./figures/ex4_9.png)
