@@ -164,4 +164,4 @@ ecAMP_total = species_all[:,1]
 axis.plot(tout,ecAMP_total,'b-')
 axis.set_ylabel('[# of molecules]', fontsize=14)
 axis.set_xlabel('time [min]', fontsize=14)
-axis.legend(('Total external cAMP'),loc='upper right', fontsize=14)
+axis.set_title('Total external cAMP')
