@@ -24,11 +24,11 @@ Each directory includes
 - **./solution** exercise solutions
 
 Solutions for Each Chapter
-- [Chapter 1](/solutions/Chapter01.md)
-- [Chapter 2](/solutions/Chapter02.md)
-- [Chapter 3](/solutions/Chapter03.md)
-- [Chapter 4](/solutions/Chapter04.md)
-- [Chapter 5](/solutions/Chapter05.md)
+- [Chapter 1. Introduction](/solutions/Chapter01.md)
+- [Chapter 2. Attitude Estimation & Control](/solutions/Chapter02.md)
+- [Chapter 3. Autonomous Vehicle Mission Planning](/solutions/Chapter03.md)
+- [Chapter 4. Biological System Modelling](/solutions/Chapter04.md)
+- [Chapter 5. Biological System Control](/solutions/Chapter05.md)
 
 All Software Licences are:
 
