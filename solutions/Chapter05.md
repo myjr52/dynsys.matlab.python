@@ -14,10 +14,11 @@ See the solution in the book
 
 ### Exercise 5.4
 
-See [matlab_5_2_ES_PI_half_subtraction.m](../matlab/matlab_5_2_ES_PI_half_subtraction.m) or [python_5_2_ES_PI_half_subtraction.py](../python/python_5_2_ES_PI_half_subtraction.py) 
+See [matlab_5_2_ES_PI_half_subtraction.m](../matlab/matlab_5_2_ES_PI_half_subtraction.m)
 
 ### Exercise 5.5
-to be completed
+
+See [python_5_2_ES_PI_half_subtraction.py](../python/python_5_2_ES_PI_half_subtraction.py) 
 
 ### Exercise 5.6
 to be completed
