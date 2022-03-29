@@ -21,7 +21,8 @@ See [matlab_5_2_ES_PI_half_subtraction.m](../matlab/matlab_5_2_ES_PI_half_subtra
 See [python_5_2_ES_PI_half_subtraction.py](../python/python_5_2_ES_PI_half_subtraction.py) 
 
 ### Exercise 5.6
-to be completed
+
+See [matlab_5_3_mu_bounds.m](../matlab/matlab_5_3_mu_bounds.m) or [python_5_3_mu_bounds.py](../python/python_5_3_mu_bounds.py) 
 
 ### Exercise 5.7
 to be completed
