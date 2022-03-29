@@ -91,7 +91,7 @@ num_omega = num_omega + 1;
 
 mu_ub = zeros(1,num_omega);
 
-%% upper bound using maximum singular value
+%% upper bound using geometric approach
 for wdx=1:num_omega
     omega = omega_all(wdx);
     Mjw = inv(1j*omega*eye(num_state)-A0);
