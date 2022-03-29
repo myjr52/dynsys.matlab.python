@@ -1,7 +1,8 @@
 ## Chapter 5 Solutions
 
 ### Exercise 5.1
-to be completed
+
+Modify [matlab_5_2_ES_PI_half_subtraction.m](../matlab/matlab_5_2_ES_PI_half_subtraction.m) or [python_5_2_ES_PI_half_subtraction.py](../python/python_5_2_ES_PI_half_subtraction.py) 
 
 ### Exercise 5.2
 
