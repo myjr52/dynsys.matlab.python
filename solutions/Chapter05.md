@@ -29,4 +29,5 @@ See [matlab_5_3_mu_bounds.m](../matlab/matlab_5_3_mu_bounds.m) or [python_5_3_mu
 See [matlab_5_5_mu_lower_bounds.m](../matlab/matlab_5_5_mu_lower_bounds.m) or [python_5_5_mu_lower_bounds.py](../python/python_5_5_mu_lower_bounds.py) 
 
 ### Exercise 5.8
-to be completed
+
+See [matlab_5_8_enzyme_mu_upper_bound.m](../matlab/matlab_5_8_enzyme_mu_upper_bound.m) 
