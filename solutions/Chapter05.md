@@ -13,7 +13,8 @@ See the solution in the book
 See the solution in the book
 
 ### Exercise 5.4
-to be completed
+
+See [matlab_5_2_ES_PI_half_subtraction.m](../matlab/matlab_5_2_ES_PI_half_subtraction.m) or [python_5_2_ES_PI_half_subtraction.py](../python/python_5_2_ES_PI_half_subtraction.py) 
 
 ### Exercise 5.5
 to be completed
