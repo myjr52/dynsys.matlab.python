@@ -92,7 +92,7 @@ dfdx_nominal = dfdx_at_ss.subs([
     ])
 
 # mu-analysis
-Ns = 5000
+Ns = 1000
 eps = 1e-6
 
 num_state = 8
@@ -117,32 +117,31 @@ A0 = dfdx_nominal_val = dfdx_nominal.subs([
     ])
 A0 = np.array(A0,dtype=np.float64)
 
-num_omega = 10
+num_omega = 1
 omega_all = np.hstack((0,np.logspace(-3,-1,num_omega-1)))
 
-mu_lb = np.zeros(num_omega)
+mu_ub = np.zeros(num_omega)
 
 # lower bound using geometric approach
 for wdx, omega in enumerate(omega_all):
     Mjw=np.linalg.inv(1j*omega*np.eye(num_state)-A0)
     
     d_lb = 1e-6
-    d_ub = 10
-    d_ulb = d_ub - d_lb
+    delta_d_lb = 5e-6
+    d = d_lb
+    not_find_ub = True
+    
+    num_iteration = 1
     
     if omega==0:
         size_check = 2
     else:
         size_check = 4
     
-    while d_ulb > eps:
-        
-        d = (d_lb+d_ub)/2
+    while not_find_ub:
         
         for idx in range(Ns):
             delta_vec = np.random.rand(num_delta)*d-d/2
-            rand_face = np.random.randint(0,num_delta,1)[0]
-            delta_vec[rand_face] = d/2
             
             dfdx_nominal_val = dfdx_nominal.subs([
                 [symbols('d1'),delta_vec[0]],
@@ -176,14 +175,15 @@ for wdx, omega in enumerate(omega_all):
                 sign_all = np.unique(sign_all,axis=0)
 
         if sign_all.shape[0] == size_check:
-            d_ub = d
+            d_lb = d_lb + delta_d_lb
         else:
-            d_lb = d
-                
-        d_ulb = d_ub - d_lb
-            
-        print(omega)
+            not_find_ub = False
+                    
+        print(d_lb)
         print(sign_all)
-        print(d_lb,d_ub)
+        
+        d = d_lb
+        num_iteration = num_iteration*2
+        
             
-    mu_lb[wdx] = 2/d_ub
+    mu_ub[wdx] = 2/d
