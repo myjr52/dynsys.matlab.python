@@ -30,4 +30,4 @@ See [matlab_5_5_mu_lower_bounds.m](../matlab/matlab_5_5_mu_lower_bounds.m) or [p
 
 ### Exercise 5.8
 
-See [matlab_5_8_enzyme_mu_upper_bound.m](../matlab/matlab_5_8_enzyme_mu_upper_bound.m) 
+See [matlab_5_8_enzyme_mu_upper_bound.m](../matlab/matlab_5_8_enzyme_mu_upper_bound.m) or [python_exercise_5_8.py](../python/python_exercise_5_8.py)
