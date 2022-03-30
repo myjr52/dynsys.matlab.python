@@ -2,7 +2,7 @@
 
 ### Exercise 5.1
 
-Modify [matlab_5_2_ES_PI_half_subtraction.m](../matlab/matlab_5_2_ES_PI_half_subtraction.m) or [python_5_2_ES_PI_half_subtraction.py](../python/python_5_2_ES_PI_half_subtraction.py) 
+Set k<sub>deg</sub> = 0 in [matlab_5_2_ES_PI_half_subtraction.m](../matlab/matlab_5_2_ES_PI_half_subtraction.m) or [python_5_2_ES_PI_half_subtraction.py](../python/python_5_2_ES_PI_half_subtraction.py) 
 
 ### Exercise 5.2
 
