@@ -4,14 +4,14 @@
 #### Jongrae Kim <myjr52@gmail.com> or <menjkim@leeds.ac.uk>
 #### RobustLab: http://robustlab.org
 
-Welcome to the companion website of the book "Dynamic System Modelling & Analysis using MATLAB & Python for Control Engineers" by Jongrae Kim.
+Welcome to the companion website of the book "Dynamic System Modelling & Analysis with MATLAB & Python for Control Engineers" by Jongrae Kim.
 The website provides the full MATLAB and Python source codes and the solutions of selected questions in the book.
 
 Please use the following BibTeX information to cite the book. 
 
 ```
 @book{jongraekim2022,
-  title     = "Dynamic System Modeling \& Analysis using MATLAB \& Python for Control Engineers",
+  title     = "Dynamic System Modeling \& Analysis with MATLAB \& Python for Control Engineers",
   author    = "Kim, Jongrae",
   year      = 2022,
   publisher = "to be confirmed",
