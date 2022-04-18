@@ -7,21 +7,23 @@
 Welcome to the companion website of the book "Dynamic System Modelling & Analysis with MATLAB & Python for Control Engineers" by Jongrae Kim.
 The website provides the full MATLAB and Python source codes and the solutions of selected questions in the book.
 
-Please use the following BibTeX information to cite the book. 
+Please use the following information to cite the book. 
 
 ```
-@book{jongraekim2022,
-  title     = "Dynamic System Modeling \& Analysis with MATLAB \& Python for Control Engineers",
-  author    = "Kim, Jongrae",
-  year      = 2022,
-  publisher = "to be confirmed",
-  address   = "to be confirmed"
+@book{kim2022dynamic,
+  title={Dynamic System Modeling and Analysis with MATLAB and Python: For Control Engineers},
+  author={Kim, J.},
+  isbn={9781119801627},
+  series={IEEE Press Series on Control Systems Theory and Applications},
+  url={https://books.google.co.uk/books?id=1GYLzgEACAAJ},
+  year={2022},
+  publisher={Wiley}
 }
 ```
 Each directory includes
-- **./matlab** matab source scripts
-- **./python** python scource scripts
-- **./solution** exercise solutions
+- [**./matlab**](https://github.com/myjr52/dynsys.matlab.python/tree/main/matlab) matab source scripts
+- [**./python**](https://github.com/myjr52/dynsys.matlab.python/tree/main/python) python scource scripts
+- [**./solution**](https://github.com/myjr52/dynsys.matlab.python/tree/main/solutions) exercise solutions
 
 Solutions for Each Chapter
 - [Chapter 1. Introduction](/solutions/Chapter01.md)
