@@ -7,6 +7,8 @@
 Welcome to the companion website of the book "Dynamic System Modelling & Analysis with MATLAB & Python for Control Engineers" by Jongrae Kim.
 The website provides the full MATLAB and Python source codes and the solutions of selected questions in the book.
 
+The book is available in [the Wiley](https://www.wiley.com/en-us/Dynamic+System+Modeling+and+Analysis+with+MATLAB+and+Python%3A+For+Control+Engineers-p-9781119801627).
+
 Please use the following information to cite the book. 
 
 ```
