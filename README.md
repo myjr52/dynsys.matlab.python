@@ -14,7 +14,7 @@ The book is available in [the Wiley](https://www.wiley.com/en-us/Dynamic+System+
 Please use the following information to cite the book. 
 
 ```
-@book{kim2022dynamic,
+@book{kimjongraedynamicsys2022,
   title={Dynamic System Modeling and Analysis with MATLAB and Python: For Control Engineers},
   author={Kim, Jongrae},
   isbn={9781119801627},
