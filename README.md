@@ -16,10 +16,10 @@ Please use the following information to cite the book.
 ```
 @book{kim2022dynamic,
   title={Dynamic System Modeling and Analysis with MATLAB and Python: For Control Engineers},
-  author={Kim, J.},
+  author={Kim, Jongrae},
   isbn={9781119801627},
   series={IEEE Press Series on Control Systems Theory and Applications},
-  url={https://books.google.co.uk/books?id=1GYLzgEACAAJ},
+  url={https://github.com/myjr52/dynsys.matlab.python},
   year={2022},
   publisher={Wiley}
 }
