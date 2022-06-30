@@ -9,7 +9,7 @@
 Welcome to the companion website of the book "Dynamic System Modelling & Analysis with MATLAB & Python for Control Engineers" by Jongrae Kim.
 The website provides the full MATLAB and Python source codes and the solutions of selected questions in the book.
 
-The book is available in [the Wiley](https://www.wiley.com/en-us/Dynamic+System+Modeling+and+Analysis+with+MATLAB+and+Python%3A+For+Control+Engineers-p-9781119801627).
+The book is available in [the Wiley](https://www.wiley.com/en-us/Dynamic+System+Modeling+and+Analysis+with+MATLAB+and+Python%3A+For+Control+Engineers-p-9781119801627), [Amazon USA](https://www.amazon.com/Dynamic-System-Modeling-Analysis-MATLAB/dp/1119801621/ref=sr_1_1?crid=DFAEYC1GJ45D&keywords=Dynamic-System-Modeling-Analysis-MATLAB&qid=1656596714&sprefix=dynamic-system-modeling-analysis-matlab%2Caps%2C132&sr=8-1) or [Amazon UK](https://www.amazon.co.uk/Dynamic-System-Modeling-Analysis-MATLAB/dp/1119801621/ref=sr_1_1?crid=28YLLY9GL6VM2&keywords=Dynamic+System+Modeling+and+Analysis+with+MATLAB+and+Python%3A+For+Control+Engineers&qid=1656596576&sprefix=dynamic+system+modeling+and+analysis+with+matlab+and+python+for+control+engineers%2Caps%2C182&sr=8-1).
 
 Please use the following information to cite the book. 
 
@@ -21,7 +21,7 @@ Please use the following information to cite the book.
   series={IEEE Press Series on Control Systems Theory and Applications},
   url={https://github.com/myjr52/dynsys.matlab.python},
   year={2022},
-  publisher={Wiley}
+  publisher={Wiley-IEEE Press}
 }
 ```
 Each directory includes
