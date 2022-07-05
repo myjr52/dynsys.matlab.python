@@ -23,6 +23,8 @@ Please use the following information to cite the book.
   year={2022},
   publisher={Wiley-IEEE Press}
 }
+
+Kim, Jongrae (2022) Dynamic System Modeling and Analysis with MATLAB and Python: For Control Engineers, Wiley-IEEE Press.
 ```
 Each directory includes
 - [**./matlab**](https://github.com/myjr52/dynsys.matlab.python/tree/main/matlab) matab source scripts
